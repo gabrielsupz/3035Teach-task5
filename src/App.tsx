@@ -1,33 +1,10 @@
-import { useState } from 'react'
-import './style.css'
+import './styles/style.css'
 import { RegisterPage } from './components/RegisterPage'
 
-export type TypeTheme = {
-  currentTheme: 'light' | 'dark'
-}
-
-function App() {
-  const [theme, setTheme] = useState<TypeTheme>({
-    currentTheme: 'light'
-  })
-
-  const handleThemeChange = () => {
-    const newTheme = theme.currentTheme === 'light' ? 'dark' : 'light'
-    setTheme({ currentTheme: newTheme })
-    console.log('mudando tema')
-  }
-
+export const App = () => {
   return (
     <>
-      <button
-        className="w-full px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline"
-        onClick={() => handleThemeChange()}
-      >
-        Change Theme
-      </button>
-      <RegisterPage theme={theme} />
+      <RegisterPage />
     </>
   )
 }
-
-export default App

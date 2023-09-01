@@ -1,0 +1,23 @@
+body #image {
+  background-image: url(./petImageThemeLight.jpg);
+}
+body.dark #image {
+  background-image: url(./petImageThemeDark.jpg);
+}
+* {
+  transition: all 0.2s;
+}
+#root {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body.dark {
+  transition: all 0.5s;
+  background: rgb(33, 33, 33);
+  background: radial-gradient(
+    circle,
+    rgba(33, 33, 33, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
