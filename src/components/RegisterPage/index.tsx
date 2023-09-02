@@ -39,13 +39,13 @@ export const RegisterPage = () => {
                       className="block mb-2 text-sm font-bold text-gray-100"
                       htmlFor="firstName"
                     >
-                      First Name
+                      Primeiro nome
                     </label>
                     <input
                       className="w-full px-3 py-2 text-sm leading-tight bg-gray-800 text-gray-100 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
                       id="firstName"
                       type="text"
-                      placeholder="First Name"
+                      placeholder="Primeiro nome"
                     />
                   </div>
                   <div className="md:ml-2">
@@ -53,13 +53,13 @@ export const RegisterPage = () => {
                       className="block mb-2 text-sm font-bold  text-gray-100"
                       htmlFor="lastName"
                     >
-                      Last Name
+                      Sobrenome
                     </label>
                     <input
                       className="w-full px-3 py-2 text-sm leading-tight bg-gray-800 text-gray-100 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
                       id="lastName"
                       type="text"
-                      placeholder="Last Name"
+                      placeholder="Sobrenome"
                     />
                   </div>
                 </div>
@@ -83,7 +83,7 @@ export const RegisterPage = () => {
                       className="block mb-2 text-sm font-bold text-gray-100"
                       htmlFor="password"
                     >
-                      Password
+                      Senha
                     </label>
                     <input
                       className="w-full px-3 py-2 mb-3 text-sm leading-tight bg-gray-800 text-gray-100 border border-red-500 rounded shadow appearance-none focus:outline-none focus:shadow-outline
@@ -95,7 +95,7 @@ export const RegisterPage = () => {
                       placeholder="******************"
                     />
                     <p className="text-xs italic text-red-500">
-                      Please choose a password.
+                      Por favor coloque a senha
                     </p>
                   </div>
                   <div className="md:ml-2">
@@ -103,7 +103,7 @@ export const RegisterPage = () => {
                       className="block mb-2 text-sm font-bold text-gray-100"
                       htmlFor="c_password"
                     >
-                      Confirm Password
+                      Confirme a senha
                     </label>
                     <input
                       className="w-full px-3 py-2 mb-3 text-sm leading-tight bg-gray-800 text-gray-100 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
@@ -120,7 +120,7 @@ export const RegisterPage = () => {
                     w-full px-4 py-2 font-bold text-white bg-gray-500 rounded-full hover:bg-gray-600 focus:outline-none focus:shadow-outline"
                     type="button"
                   >
-                    Register Account
+                    Registrar conta
                   </button>
                 </div>
                 <hr className="mb-6 border-t" />
@@ -129,7 +129,7 @@ export const RegisterPage = () => {
                     className="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
                     href="#"
                   >
-                    Forgot Password?
+                    Esqueceu sua senha?
                   </a>
                 </div>
                 <div className="text-center">
@@ -137,7 +137,7 @@ export const RegisterPage = () => {
                     className="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
                     href="#"
                   >
-                    Already have an account? Login!
+                    Já possui uma conta? Faça o Login.
                   </a>
                 </div>
               </form>
@@ -168,13 +168,13 @@ export const RegisterPage = () => {
                       className="block mb-2 text-sm font-bold text-gray-700"
                       htmlFor="firstName"
                     >
-                      First Name
+                      Primeiro nome
                     </label>
                     <input
                       className="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
                       id="firstName"
                       type="text"
-                      placeholder="First Name"
+                      placeholder="Primeiro nome"
                     />
                   </div>
                   <div className="md:ml-2">
@@ -182,13 +182,13 @@ export const RegisterPage = () => {
                       className="block mb-2 text-sm font-bold text-gray-700"
                       htmlFor="lastName"
                     >
-                      Last Name
+                      Sobrenome
                     </label>
                     <input
                       className="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
                       id="lastName"
                       type="text"
-                      placeholder="Last Name"
+                      placeholder="Sobrenome"
                     />
                   </div>
                 </div>
@@ -212,7 +212,7 @@ export const RegisterPage = () => {
                       className="block mb-2 text-sm font-bold text-gray-700"
                       htmlFor="password"
                     >
-                      Password
+                      Senha
                     </label>
                     <input
                       className="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 border border-red-500 rounded shadow appearance-none focus:outline-none focus:shadow-outline"
@@ -221,7 +221,7 @@ export const RegisterPage = () => {
                       placeholder="******************"
                     />
                     <p className="text-xs italic text-red-500">
-                      Please choose a password.
+                      Por favor coloque a senha
                     </p>
                   </div>
                   <div className="md:ml-2">
@@ -229,7 +229,7 @@ export const RegisterPage = () => {
                       className="block mb-2 text-sm font-bold text-gray-700"
                       htmlFor="c_password"
                     >
-                      Confirm Password
+                      Confirme a senha
                     </label>
                     <input
                       className="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
@@ -244,7 +244,7 @@ export const RegisterPage = () => {
                     className="w-full px-4 py-2 font-bold text-white bg-red-500 rounded-full hover:bg-red-700 focus:outline-none focus:shadow-outline"
                     type="button"
                   >
-                    Register Account
+                    Registrar conta
                   </button>
                 </div>
                 <hr className="mb-6 border-t" />
@@ -253,7 +253,7 @@ export const RegisterPage = () => {
                     className="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
                     href="#"
                   >
-                    Forgot Password?
+                    Esqueceu sua senha?
                   </a>
                 </div>
                 <div className="text-center">
@@ -261,7 +261,7 @@ export const RegisterPage = () => {
                     className="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
                     href="#"
                   >
-                    Already have an account? Login!
+                    Já possui uma conta? Faça o Login.
                   </a>
                 </div>
               </form>
