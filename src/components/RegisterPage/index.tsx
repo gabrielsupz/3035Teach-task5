@@ -1,13 +1,10 @@
+import { useContext } from 'react'
 import { ThemeButton } from '../ThemeButton'
-import { useState } from 'react'
-export type TypeTheme = {
-  currentTheme: 'light' | 'dark'
-}
+import { ThemeContext } from '../../contexts/ThemeContext'
 
 export const RegisterPage = () => {
-  const [theme, setTheme] = useState<TypeTheme>({
-    currentTheme: 'light'
-  })
+  const { setTheme, theme } = useContext(ThemeContext)
+
   const handleThemeChange = () => {
     const body = document.querySelector('body')
 
